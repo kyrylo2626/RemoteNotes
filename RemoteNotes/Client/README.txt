@@ -1,0 +1,15 @@
+python==3.10.2
+
+
+To install the required modules:
+
+python -m pip install -r requirements.txt
+
+
+To run client application: RemoteNotesRun.py
+
+
+Default log data:
+
+login: admin
+password: password

@@ -1,0 +1,196 @@
+* {
+	font-family: Roboto Condensed;
+	font-size: 15pt;
+}
+
+
+QDateEdit {
+	border: none;
+	font-size: 12pt;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+
+#label_2, #label_3, #label_4, #label_5, #label_6, #label_7, #label_8, #label_9, #label_10 {
+	background-color: transparent;
+	font-size: 13pt;
+}
+
+#label_8 {
+	color: red;
+}
+
+QLabel {
+	color: black;
+	font-size: 10pt;
+}
+
+QFrame {
+	background: white;
+	border-radius: 7px;
+}
+
+QLineEdit {
+	font-size: 12pt;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+QPushButton {
+	font-size: 12pt;
+	border-radius: 7px;
+	background: #3f51b5;
+	color: white;
+}
+
+QPushButton:hover {
+	background: #5060bb;
+	opacity: 0.9;
+}
+
+QPushButton:pressed {
+	background: gray;
+	opacity: 0.9;
+}
+
+QToolButton {
+	background: transparent;
+	font-size: 22pt;
+	color: gray;
+}
+
+QToolButton:hover {
+	color: black;
+	opacity: 0.7;
+}
+
+#pushButton_3, #pushButton_4, #pushButton_5, #pushButton_6 {
+	font-size: 15pt;
+	background: white;
+	color: black;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#pushButton_3:hover, #pushButton_4:hover, #pushButton_5:hover, #pushButton_6:hover {
+	background: #3f51b5;
+	color: white;
+}
+
+#pushButton_3:pressed, #pushButton_4:pressed, #pushButton_5:pressed, #pushButton_6:pressed {
+	background: gray;
+	opacity: 0.9;
+	color: white;
+}
+
+QGroupBox {
+	background: white;
+}
+
+
+
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+	background-color: #3f51b5;
+}
+
+QCalendarWidget QToolButton {
+	color: white;
+	icon-size: 56px, 56px;
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+	font-size:24px;
+	selection-background-color: #3f51b5;
+	selection-color: white;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar QToolButton#qt_calendar_nextmonth {
+	qproperty-icon: url(\'images/right.png\');
+	icon-size: 35px 35px;
+	margin-right: 15px;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar QToolButton#qt_calendar_prevmonth {
+	qproperty-icon: url(\'images/left.png\');
+	icon-size: 35px 35px;
+	margin-left: 15px;
+}
+
+
+
+
+QComboBox {
+	color: white;
+	font-size: 12pt;
+	background: #3f51b5;
+	border: 10px solid #3f51b5;
+	border-radius: 7px;
+	padding-left: 40%;
+}
+
+QComboBox:hover {
+	background: #5060bb;
+	border: 10px solid #5060bb;
+	opacity: 0.9;
+}
+
+QComboBox:checked {
+	background: gray;
+	border: 10px solid gray;
+	opacity: 0.9;
+}
+
+QComboBox::down-arrow {   
+    height: 10px;
+    width: 10px;
+    image: url(\'images/triangle.png\');                  
+}
+
+QComboBox::drop-down {
+    border: transparent;
+}
+
+QComboBox QListView {
+	border-radius: 0px;
+    selection-background-color: #3f51b5;
+    outline: none;
+ }
+
+#comboBoxStatus {
+	font-size: 12pt;
+	background: transparent;
+	color: black;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 2px solid black;
+	padding-left: 80%;
+}
+
+#comboBoxStatus::down-arrow {   
+    height: 6px;
+    width: 8px;
+    image: url(\'images/triangle_black.png\');                  
+}
+
+QCheckBox {
+  	font-size: 12pt;
+	background: transparent;
+	color: black;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 2px solid black;
+}
+
+QCheckBox::indicator {
+  border: 2px solid black;
+ }
+
+QCheckBox::indicator:checked {
+	height: 12px;
+    width: 12px;
+  	image: url(\'images/checkBox.png\'); 
+}
